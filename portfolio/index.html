@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Portfolio</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- ========== Start NavBar ========== -->
+   <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid" id="navbarNav">
+        <a class="navbar-brand nav-text" href="#" id="nav-name">Emanuele Czofei</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item nav-text ">
+              <a class="nav-link nav-text body2" href="#">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-text body2" href="#">Projects</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-text body2" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   <!-- ========== End NavBar ========== -->
+    <!-- ========== Start Hero Section ========== -->
+    <div class="container-fluid" id="hero-section">
+      <div class="row" id="hero-image-row">
+         <img src="images/image0 (1).jpeg" alt="profile image" id="hero-image">
+      </div>
+      <div class="row" id="hero-text-box">
+         <div id="hero-h1"><h1>Hi, I'm Emanuele</h1>
+         <img src="images/waving-hand-svgrepo-com.svg" alt="none" id="wave-hand">
+         </div>
+         <p class="body2" id="hero-p">
+            I'm a front end developer (React.js & Bootstrap)
+            with a focus on creating responsive web applications.
+            I'm passionate about learning new technologies and
+            building projects that help people.
+            I'm currently looking for new opportunities.
+            Scroll down to see my projects!
+         </p>
+      </div>
+      <div class="row w-100" id="hero-icons">
+         <div class="position">
+            <img src="icons/placeholder-svgrepo-com.svg" id="position-svg">
+            <p class="body2" id="hero-position">San Sebastian, Spain</p>
+         </div>
+         <div class="position">
+            <img src="icons/icons8-green-dot-48.png" id="avaiable-svg">
+            <p class="body2" id="avaiable">Avaiable for new projects</p>
+         </div>
+      </div>
+    </div>
+    <!-- ========== End Hero Section ========== -->
+    <!-- ========== Start About Section ========== -->
+    <div class="container-fluid" id="about-page">
+      <div class="row" class="page-button">
+         <div class="about">
+            <p class="body3" id="about-text">About me</p>
+         </div>
+      </div>
+      <div class="row w-100 d-flex justify-content-center align-items-center " id="about-content">
+         <div class="col-5 d-flex justify-content-center align-items-start" id="about-left">
+            <img src="images/IMG_0865.JPG" id="about-image">
+         </div>
+         <div class="col-7" id="about-right">
+            <h3>Curious about me? Here you have it:</h3>
+            <p class="body2" id="about-description">
+               I'm an 18-year-old front-end developer based in Spain with a passion for creating modern and user-friendly web interfaces.
+                  <br>
+                  My skills include:
+               <br>
+                  HTML, CSS, JavaScript – Building responsive and interactive web pages.
+                  React & Bootstrap – Developing dynamic and well-styled applications with reusable components.
+                  Although I don’t have formal work experience, I have built several personal projects that showcase my ability to create functional and well-structured applications. I’m currently looking for opportunities to gain experience and grow as a developer.
+               <br>
+                  If you’re interested in working together or have an open position, feel free to reach out!
+            </p>
+         </div>
+      </div>
+    </div>
+    <!-- ========== End About Section ========== -->
+     <!-- ========== Start Skills Page ========== -->
+     <div class="container-fluid" id="skills-page">
+      <div class="row d-flex justify-content-center" class="page-button">
+         <div id="skills">
+            <p class="body3" id="about-text">Skills</p>
+         </div>
+      </div>
+      <div class="row">
+         <p class="subtitle" id="skill-text">
+            Here are some of the technologies I work with:
+         </p>
+      </div>
+      <div class="row">
+         <div class="col d-flex justify-content-center">
+            <div class="skill-card">
+               <img src="icons/icons8-html.svg" alt="html" class="skill-icon">
+               <p class="body1 skill-text">Html</p>
+            </div>
+         </div>
+         <div class="col d-flex justify-content-center">
+            <div class="skill-card">
+               <img src="icons/icons8-css.svg" alt="html" class="skill-icon">
+               <p class="body1 skill-text">Css</p>
+            </div>
+         </div>
+         <div class="col d-flex justify-content-center">
+            <div class="skill-card">
+               <img src="icons/icons8-bootstrap.svg" alt="html" class="skill-icon">
+               <p class="body1 skill-text">Bootstrap</p>
+            </div>
+         </div>
+         <div class="col d-flex justify-content-center">
+            <div class="skill-card">
+               <img src="icons/icons8-javascript.svg" alt="html" class="skill-icon">
+               <p class="body1 skill-text">JavaScript</p>
+            </div>
+         </div>
+         <div class="col d-flex justify-content-center">
+            <div class="skill-card">
+               <img src="icons/icons8-react.svg" alt="html" class="skill-icon">
+               <p class="body1 skill-text">React</p>
+            </div>
+         </div>
+      </div>
+     </div>
+     <!-- ========== End Skills Page ========== -->
+      <!-- ========== Start Project Page ========== -->
+      <div class="container-fluid " id="project-page">
+         <div class="row d-flex justify-content-center" class="page-button">
+            <div id="project">
+               <p class="body3" id="projects-text">Projects</p>
+            </div>
+            <p class="subtitle" id="project-text">
+               Here are some of my projects:
+            </p>
+         </div>
+         <div class="projects-container">
+            <div class="row d-flex justify-content-center " id="project-row">
+               <div class="img-div">
+                  <img src="images/image0.png" class="project">
+               </div>
+               <div class="project-description">
+                  <p class="subtitle">To-Do List</p>
+                  <p class="body2">This is a simple To-Do list with the option of checking and deleting the task.
+                                   It was made with Html Css and JavaScript
+                  </p>
+               </div>
+            </div>
+            <div class="row d-flex justify-content-center " id="project-row">
+               <div class="img-div">
+                  <img src="images/image3.png" class="project">
+               </div>
+               <div class="project-description">
+                  <p class="subtitle">To-Do List</p>
+                  <p class="body2">This is a simple Calculator.
+                                   It was made with Html Css and JavaScript
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ========== End Project Page ========== -->
+       <!-- ========== Start Contact Page ========== -->
+       <div class="container-fluid" id="contact-page">
+         <div class="row d-flex justify-content-center" class="page-button">
+            <div id="contact">
+               <p class="body3" id="contact-button">Get in Touch</p>
+            </div>
+            <p class="subtitle" id="contact-text">
+               What's next? Let's work together!
+            </p>
+         </div>
+         <div class="row" id="email">
+            <img src="icons/icons8-email-48.png" id="email-svg">
+            <h2 id="email-text">emanuelecz06@gmail.com</h2>
+         </div>
+         <div class="row" id="telephone">
+            <img src="icons/icons8-telephone-50.png" id="telephone-svg">
+            <h2 id="telephone-text">+40 0764168980</h2>
+         </div>
+       </div>
+       <!-- ========== End Contact Page ========== -->
+       <!-- ========== Start Footer Page ========== -->
+       <div class="container-fluid d-flex align-items-center justify-content-center" id="footer">
+         <p class="body3" id="footer-text">2025| Coded by Emanuele Czofei</p>
+       </div>
+
+       
+       <!-- ========== End Footer Page ========== -->
+       
+      
+     
+   
+  
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
