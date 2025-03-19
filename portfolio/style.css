@@ -258,9 +258,106 @@ body{
 /***** End Footer *****/
 
 
+@media (max-width: 675px){
+   .about{
+      margin-top: 40px;
+   }
+   #about-page{
+      height: 500px;
+   }
+   #about-image{
+      width: 180px;
+      box-shadow: 10px 10px #374151;
+   }
+   #hero-image{
+      width: 200px;
+   }
+   #skills{
+      width: 70px;
+      margin-top: 40px;
+   }
+   .skill-icon{
+      width: 40px;
+   }
+   #skills-page{
+      height: 250px;
+   }
+   #project{
+      margin-top: 40px;
+      width: 90px;
+   }
+   #project-text{
+      margin-bottom: 0;
+   }
+   .project{
+      width: 200px;
+      height: 150px;
+   }
+   .img-div , .project-description{
+      width: 250px;
+   }
+   .project-description{
+      height: 170px;
+   }
+   #project-page{
+      height: 1100px;
+   }
+   #contact{
+      margin-top: 40px;
+   }
+   #telephone-text{
+      text-align: left;
+   }
+   #contact-page{
+      height: 300px;
+   }
+   h1{
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 600;
+      color: #f9fafb;
+   }
+   h2{
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: -2%;
+      font-weight: 600;
+      color: #f9fafb;
+   }
+   h3{
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 600;
+      letter-spacing: -2%;
+      color: #f9fafb;
+   }
+   .subtitle{
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      color: #d1d5db;
+   }
+   .body1{
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+      color: #d1d5db;
+   }
+   .body2{
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+      color: #d1d5db;
+   }
+   .body3{
+      font-size: 10px;
+      line-height: 14px;
+      font-weight: 400;
+      color: #d1d5db;
+   }
+}
 
-
-@media (max-width: 768px){
+@media (min-width:675px) and (max-width: 768px){
    #hero-section{
       height: 650px; 
    }
