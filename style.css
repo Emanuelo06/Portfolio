@@ -270,6 +270,7 @@ body{
       box-shadow: 10px 10px #374151;
       align-self: center;
       justify-self: center;
+      margin-bottom: 280px;
    }
    #hero-image{
       width: 200px;
